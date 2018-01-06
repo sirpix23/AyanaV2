@@ -69,4 +69,4 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
 	}
 });
 
-bot.login(require('./config.json').discordToken);
+client.login(process.env.BOT_TOKEN);
